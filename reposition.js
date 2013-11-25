@@ -2,7 +2,7 @@ $(function() {
 	
     $.fn.drags = function(opt) {
 
-        opt = $.extend({cursor:"move"}, opt); //handle needs to be mentioned in this line
+        opt = $.extend({cursor:"move"}, opt);
 		var drgoff = this.offset().top;
         var $el = this;
         
